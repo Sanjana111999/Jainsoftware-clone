@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+
+
+<body>
+  <!-- Nav section -->
+  <nav>
+    <div class="wrapper">
+      <div class="logo" style="height: 70px;" >
+        <img src="images/jainsoftware-2.svg" style="height: 60px;"alt="">
+    </div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="lalbtn close-btn"><i class="fas fa-times"></i></label>
+        <li>
+          <a href="#" class="desktop-item">Why Jain Software</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Why Jain Software</label>
+          <ul class="drop-menu">
+            <li><a href="#">Overview</a></li>
+            <hr class="style1">
+            <li><a href="#">Business Success</a></li>
+            <hr class="style1">
+            <li><a href="#">Corporate Case Study</a></li>
+            <hr class="style1">
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Software</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Software</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="mrow">
+                <header>Microsoft</header>
+                <ul class="mega-links">
+                  <li><a href="#">Operating Systems</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Microsoft Office</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Servers</a></li>
+                  <hr class="style1">
+                </ul>
+              </div>
+              <div class="mrow">
+                <header>Antivirus & Internet Security</header>
+                <ul class="mega-links">
+                  <li><a href="#">Norton Security</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Eset Internet Security</a></li>
+                  <hr class="style1">
+                  <li><a href="#">McAfee Total Protection</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Kaspersky Internet Security</a></li>
+                  <hr class="style1">
+                </ul>
+              </div>
+              <div class="mrow">
+                <header>Adobe</header>
+                <ul class="mega-links">
+                  <li><a href="#">Adobe Photoshop CS6</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Adobe Illustrator CS6</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Adobe After Effects CS6</a></li>
+                  <hr class="style1">
+                  <li><a href="#">Adobe InDesign CS6</a></li>
+                  <hr class="style1">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+            <a href="#" class="desktop-item">Products</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Why Jain Software</label>
+            <ul class="drop-menu">
+              <li><a href="#">GST Smart Billing Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Finance Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Inventory Management System</a></li>
+              <hr class="style1">
+              <li><a href="#">Hospital Billing Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Hotel Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">MLM Management System</a></li>
+              <hr class="style1">
+              <li><a href="#">School Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Spa & saloon Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Transport Management Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Magento Eye Prescription</a></li>
+              <hr class="style1">
+              <li><a href="#">General Billing Management Software</a></li>
+              <hr class="style1">
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Portfolio</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Portfolio</label>
+            <ul class="drop-menu">
+              <li><a href="#">BigData/Cloud</a></li>
+              <hr class="style1">
+              <li><a href="#">Corporate Websites</a></li>
+              <hr class="style1">
+              <li><a href="#">Ecommerce</a></li>
+              <hr class="style1">
+              <li><a href="#">Online Marketing</a></li>
+              <hr class="style1">
+              <li><a href="#">Servers</a></li>
+              <hr class="style1">
+              <li><a href="#">Software</a></li>
+              <hr class="style1">
+              <li><a href="#">Website Security</a></li>
+              <hr class="style1">
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Services</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Services</label>
+            <ul class="drop-menu">
+              <li><a href="#">Software Development Levels</a></li>
+              <hr class="style1">
+              <li><a href="#">Software/App/Website Comparison</a></li>
+              <hr class="style1">
+              <li><a href="#">App Development</a></li>
+              <hr class="style1">
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Innovations</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Innovations</label>
+            <ul class="drop-menu">
+              <li><a href="#">Check Domain DNS Detail</a></li>
+              <hr class="style1">
+              <li><a href="#">Check Domain Whois Detail</a></li>
+              <hr class="style1">
+              <li><a href="#">Awareness Against Cyber Crime </a></li>
+              <hr class="style1">
+              <li><a href="#">ClientExec V5 to WHMCS 6 </a></li>
+              <hr class="style1">
+            </ul>
+          </li>
+          <li>
+          <a href="#" class="desktop-item">Companies</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Companies</label>
+            <ul class="drop-menu">
+              <li><a href="#">Jain Software Developers</a></li>
+              <hr class="style1">
+              <li><a href="#">MNCHOST Incorporation</a></li>
+              <hr class="style1">
+              <li><a href="#"> HACKERSMIND Inc</a></li>
+              <hr class="style1">
+              <li><a href="#">TechNIERA Inc</a></li>
+              <hr class="style1">
+              <li><a href="#">Jain Dental Hospital</a></li>
+              <hr class="style1">
+              <li><a href="#">KarloShop</a></li>
+              <hr class="style1">
+              <li><a href="#"> Anajshop | Online Grain ShopHACKERSMIND Inc</a></li>
+              <hr class="style1">
+            </ul>
+          </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <label for="menu-btn" class="lalbtn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  <div>
+    <hr class="style1">
+  </div>
+  <!-- carousel Section -->
+  <section class="sec2">
+    <div class="banner1" >
+        <img class="banner-img"  src="images/1.jpg" alt="">
+        <div class="text-box text-box1">
+            <p>Central India’s Fastest Growing Software Company</p>
+            <img src="images/jainsoftware-2.svg" alt="">
+            <h1>Software : ₹ 4999</h1>
+            <p >Software & Website Development starts from ₹4999 .No hidden charges</p>
+            <button type="button" class="btn btn-lg btn-outline-light">Signup now</button>
+
+        </div>
+    </div>
+    <div class="banner2">
+        <img class="banner-img" src="images/2.jpeg" alt="">
+        <div class="text-box text-box2">
+            <h1>Looking for App ?</h1>
+            <p >
+                We create highly polished iPhone & Android apps for
+                <span style="color: yellow;">STARTUPS & ENTERPRISE CLIENTS</span>.</p>
+            <button type="button" class="btn btn-lg btn-dark">Let's proceed</button>
+
+            
+        </div>
+    </div>
+    <div class="banner3">
+        <img class="banner-img"  src="images/3.jpeg" alt="">
+        <div class="text-box text-box3">
+            <h1>Corporate / Startup ?</h1>
+            <p >Proud to have some Fortune 500 corporates as clients .
+                Initiate your idea today.</p>
+        </div>
+    </div>
+    <div class="banner4">
+        <img class="banner-img"  src="images/4.jpeg" alt="">
+        <div class="text-box text-box4">
+            <h1>Start your next BIG IDEA today !</h1>
+            <button type="button" class="btn btn-lg btn-dark">Make it done now</button>
+        </div>
+    </div>
+</section>
+<div style="margin-top: 800px;">
+</div>
+
+
+    <!-- services Container -->
+    <section id="services-container " class="reveal sec3">
+        <!-- <h1 class="h-primary center">Our Services</h1> -->
+        <div id="services">
+            <div class="box">
+                <img class="imgh" src="images/plane.png" style="height: 40%;" alt="Plane icon">
+                <h3 class="h-secondary center">Software Development Science?</h3>
+                <p class="center pfont">"Jain Software develop customized software for users as per the requirements."</p>
+
+            </div>
+            <div class="box">
+                <img src="images/cart.png" style="height: 40%;" alt="">
+                <h3 class="h-secondary center">Ecommerce. Done Right !</h3>
+                <p class="center pfont">"We have developed some worlds best ecommerce sites on highly optimized enterprise platform."</p>
+
+            </div>
+            <div class="box">
+                <img src="images/coffie.png"  style="height: 40%;" alt="">
+                <h3 class="h-secondary center">iPhone/Android App Development ?</h3>
+                <p class="center pfont">"Our Android/IOS App Development team is there to make an app as per your requirements."</p>
+
+            </div>
+            <div class="box">
+                <img src="images/rocket.png" style="height: 40%;" alt="">
+                <h3 class="h-secondary center">React + CSS4 on Dream Website Development ?</h3>
+                <p class="center pfont">"Your dream, our work! We will provide you websites or applications with best creative designing."</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Client Section -->
+    <section id="clientid" class="sec4">
+      <div>
+          <h1 class="h1 tcenter" style="color: aliceblue;">What Our Clients Say</h1>
+      </div>
+      <div class="box2 sb9 ">
+          <div class="twhite">
+              <img src="./images/testimonial_quote.png">
+              Jain Software was beyond terrific – from their attitude and enthusiasm to their knowledge and experience
+              with Software development. They are doing great and surely best software company at Raipur.
+
+          </div>
+          <div id="d2">
+              - Hon. Rajesh Munat (Ex-Cabinet Minister, Chhattisgarh)
+          </div>
+          <ul>
+              <li><img src="./images/logo1.png"></img></li>
+              <li><img src="./images/logo2.png"></img></li>
+              <li><img src="./images/logo3.png"></img></li>
+          </ul>
+      </div>
+  </section>
+
+
+  <!-- Section 5 -->
+  <section class="reveal sec5">
+      <div style="width: 100%;" class=" text-center">
+          <div class="row">
+            <div class="col">
+              <img src="./images/jainsoftwareraipurlove.jpg"></img>
+            </div>
+            <div class="col col1">
+              <div class="colRight1 ">
+                  <p>
+                      Software to enhance your business       
+                  </p>
+              </div>
+            <div class="col">
+              <div  class="colRight2 ">
+                  <p>
+                      The solutions you need to succeed.
+                  </p>
+              </div>
+            <div class="col">
+              <div  class="colRight3 ">
+                  <p>
+                      The main thing about “Jain Software Developers” is “Flexible” and that’s makes us Central India’s best choice in delivering perfection over any business challenges. We’re the team of logical thinkers which consist of 70% IITians & NITians. We can code in any programming language, any platform that gonna suits BEST as per your BUSINESS and that makes us BEST IT Company.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div id="btn1">
+
+              <button type="button" class="btn btn-danger ">GOT SOMETHING TO IMPLEMENT?</button>
+          </div>
+  </section>
+
+
+<!-- Section 6 -->
+  <Section class="sec6">
+      <div id="btn2">
+          <button type="button"  class="btn btn-lg btn-outline-danger">&#8377 4999</button>
+          <button type="button" style="width: 250px; padding-left: 5px;" class="btn btn-lg btn-outline-danger">Innovative concept</button>  
+      </div>
+      <div class=" sec6-text text-center">
+          <div class="row">
+            <div class="col">
+              <div class="colLeft1">
+                 <p>
+                      Software Perfection
+                 </p> 
+              </div>
+              <div class="colLeft2">
+                 <p>
+                      “NEXT IT REVOLUTION”
+                 </p> 
+              </div>
+              <div class="colLeft3">
+                 <p>
+                  Jain Software Developers, part of Jain Software Foundation are helping millions of small business to become digital. Jain Software is running numbers of innovative graduate minds working on Delivering Perfection over Information Technology world. Jain Software assures to provide Perfection Grade Software & websites starting from ₹4999 for startups, small businesses & corporates. We do support the social causes issues and provide FREE software & sites development to them.
+                 </p> 
+              </div>
+              <div id="btn3">
+                  <button type="button" class="btn btn-danger ">READ MORE </button>
+               </div>
+            </div>
+            <div class="col">
+              <img src="./images/4999logo.jpg"></img>
+            </div>
+          </div>
+  </Section>
+
+
+<!-- Section7 -->
+<section class="sec7" style="margin-top: 500px;">
+  <div id="sec7">
+      <div id="c1">
+          <p> Our Awesome Clients</p>
+      </div>
+      <div id="c2">
+          <p>Software Company headquarted in Raipur proud to have loyal Clients like them 🙂 </p>
+      </div>
+      <div id="sec7-img" class="container border border-dark">
+          <div>
+              <a href="https://microsoft.com" target="_blank">
+                  <img src="./images/microsoft-jainsoftware.png"></img>
+              </a>
+          </div>
+          <div>
+              <a href="https://microsoft.com" target="_blank">
+                  <img src="./images/avast-jainsoftware.png"></img>
+              </a>
+          </div>
+          <div>
+              <a href="https://microsoft.com" target="_blank">
+                  <img src="./images/ibm-jainsoftware.png"></img>
+              </a>
+          </div>
+
+      </div>
+
+      <div style="height: 100px;"></div>
+  </div>
+
+</section>
+
+
+<!-- Section8 -->
+<section class="sec8">
+  <div class="container  text-center">
+      <div class="row">
+          <div class="col collast1">
+              <div class="p1-8">
+                  <p>
+                      Connect with us on every social network
+                  </p>
+              </div>
+              <div class="btn8 ">
+                  <button type="button" class="btn btn-lg btn-danger ">CONNECT WITH THINKERS</button>
+              </div>
+              <div class="g1">
+                  <p>
+                      Email : global[at] Jain.software
+                  </p>
+                  <p>
+
+                      Phone: +91-9111554999
+                  </p>
+              </div>
+              <div class="ads">
+                  <p>
+                      Corporate Office : First Floor ,Jairam Complex,JaiStambh Chowk ,Raipur . Pincode :
+                      492001,India . Branches at
+                      <b>Hyderabad . Raipur . Minneapolis .</b>
+                  </p>
+              </div>
+              <div class="icon2">
+                  <a style="color: red;" href="https://facebook.com" target="_blank">
+                      <i class="fa-brands fa-facebook fa-2x"></i>
+                  </a>
+                  <a style="color: red;" href="https://linkedin.com" target="_blank">
+                      <i class="fa-brands fa-linkedin fa-2x"></i>
+                  </a>
+                  <a style="color: red;" href="https://youtube.com" target="_blank">
+                      <i class="fa-brands fa-youtube fa-2x"></i>
+                  </a>
+                  <a style="color: red;" href="https://insagram.com" target="_blank">
+                      <i class="fa-brands fa-square-instagram fa-2x"></i>
+                  </a>
+              </div>
+              <div class="long-txt">
+                  <p>
+                      Customised Software Development | Enterprise Software Development | Custom Software
+                      Development | Cloud Software Development | Desktop Software Development | Inventory Software
+                      Development | Hospital Management Software Development | Billing Software Development |
+                      Accounting Software Development | Gym Software | Gym Management Software | Transport
+                      Management Software | Truck Management Software | Restaurant Management Software | Real
+                      Estate Software Development | Lead Software Development | HRM Development | School
+                      Management Software | Raipur Chhattisgarh
+                  </p>
+              </div>
+          </div>
+          <div class="col collast1">
+              <div class="p1-8">
+                  <p>
+                      Way towards new IT Innovations
+
+                  </p>
+              </div>
+              <div class="btn8 ">
+                  <button type="button" class="btn btn-lg btn-danger ">JAIN SOFTWARE SOCIAL</button>
+              </div>
+              <div class="p2-8">
+                  <div>
+                      <a class="p2-8" href="https://www.jain.software/social-cause/" target="_blank">
+                          Free Software Development
+                      </a>
+                  </div>
+                  <div>
+                      <a class="p2-8"
+                          href="https://www.jain.software/%e2%82%b94999-campaign-join-the-it-revolution/"
+                          target="_blank">
+                          ₹ 4999 Campaign
+                      </a>
+                      <a class="p2-8" href="https://www.jain.software/free-domain-and-server-for-students/"
+                          target="_blank">
+                          Free Domain + Server
+                      </a>
+                  </div>
+                  <div>
+                      <a class="p2-8"
+                          href="https://www.jain.software/jain-software-foundation-platform-for-startups/"
+                          target="_blank">
+                          For Startups
+                      </a>
+                      <a class="p2-8" href="https://www.jain.software/" target="_blank">
+                          For Event Partners.
+                      </a>
+                  </div>
+
+                  <div>
+                      <a class="p2-8" href="https://www.jain.software/privacy-policy/" target="_blank">
+                          Privacy Policy
+                      </a>
+                      <a class="p2-8" href="https://www.jain.software/terms-and-conditions/" target="_blank">
+                          Terms.
+                      </a>
+                      <a class="p2-8" href="https://www.jain.software/disclaimer-policy-jain-software-foundation/"
+                          target="_blank">
+                          Disclaimer.
+                      </a>
+                  </div>
+              </div>
+              <div class="long-txt">
+                  <p>
+                      Customised Website Development | Enterprise Website Development | Custom Website Development
+                      | Corporate Website Development | CryptoCurrency Website Development | Dental Website
+                      Development | Hospital Website Development | Magento E-commmerce Website Development |
+                      Shopify Website Development | Ecommerce Website Development | Custom Ecommerce Website
+                      Development | Real Estate Website Development | Raipur Website Development | Restaurant
+                      Website Development | School Website Development | Steel Website Development | Responsive
+                      Website Development | Affordable Website Development | AWS Development | CakePHP |
+                      CodeIgniter Development | WordPress Development | WooCommerce Development | WooCommerce
+                      Developers | OpenCart Developers | Python Development | Raipur Chhattisgarh
+                  </p>
+              </div>
+          </div>
+          <div class="col collast1">
+              <div class="p1-8">
+                  <p>
+                      Leading Software Company in India
+                  </p>
+              </div>
+              <div class="btn8">
+                  <button type="button" class="btn btn-lg btn-danger ">DELIVERING PERFECTION</button>
+              </div>
+              <div class="p2-8">
+                  <a class="p2-8" href="https://www.jain.software/about-jain-software-developers/"
+                      target="_blank">
+                      About Jain Software
+                  </a>
+                  <a class="p2-8" href="https://www.jain.software/careers/apply.php" target="_blank">
+                      Career
+                  </a>
+              </div>
+              <div>
+                  <a class="p2-8" href="https://www.jain.software/newsroom/" target="_blank">
+                      Newsroom
+                  </a>
+                  <a class="p2-8" href="https://www.jain.software/official-blog/" target="_blank">
+                      Knowledgeable Blog
+                  </a>
+              </div>
+              <div>
+                  <a class="p2-8" href="https://www.jain.software/" target="_blank">
+                      Events
+                  </a>
+                  <a class="p2-8" href="https://www.jain.software/sitemap_index.xml" target="_blank">
+                      Sitemap
+                  </a>
+              </div>
+              <div class="long-txt">
+                  <p>
+                      Customised App Development | Enterprise App Development | Custom App Development | Cloud
+                      App Development | Flutter App Development | iOT Software Development | NodeJS App
+                      Development | React App Development | Accounting App Development | Gym App Development |
+                      Fitness App Development | Gym Management App | Transport App Software | Truck Management
+                      Mobile App | Restaurant Management App | AngularJS Development | Ionic App Development |
+                      React Native | PWA Development | AR\VR Development | Industrial Automation | Smart
+                      Healthcare Automation | Raipur Chhattisgarh
+                  </p>
+              </div>
+              <div>
+                  <p style="font-size: 25px;">
+                      <b>Jain Software Private Limited</b>
+                  </p>
+              </div>
+
+          </div>
+      </div>
+</section>
+<div>
+  <hr class="style2-+
+  ">
+</div>
+
+<!-- Section9 -->
+<FOoter>&COPY;Jain Software Foundation 2021. Business ReDefined by Jain Software | Delivering Perfection</FOoter>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/071995641e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
